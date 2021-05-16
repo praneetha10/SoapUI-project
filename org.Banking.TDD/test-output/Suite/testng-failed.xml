@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Iteration5(failed)">
+    <parameter name="pin" value="533346"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="x" value="he"/>
+    <parameter name="fn1" value="praneetha"/>
+    <parameter name="ln1" value="mullapudi"/>
+    <classes>
+      <class name="Tests.Test3">
+        <methods>
+          <include name="validationDropDown" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Tests.Test3 -->
+    </classes>
+  </test> <!-- Iteration5(failed) -->
+</suite> <!-- Failed suite [Suite] -->
