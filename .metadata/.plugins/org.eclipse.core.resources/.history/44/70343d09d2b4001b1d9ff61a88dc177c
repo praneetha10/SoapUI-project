@@ -1,0 +1,80 @@
+package Tests;
+
+import java.util.List;
+
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import PageClasses.BankManagerLogin;
+import PageClasses.LoginPage;
+import PageClasses.customer;
+import PageClasses.openaccount;
+import Utilities.TestUtilites;
+
+public class Test3 
+{
+	//Properties
+	public RemoteWebDriver driver;
+	public WebDriverWait wait;
+	public TestUtilites tu;
+	public openaccount op;
+	public LoginPage lp;
+	public customer cust;
+	public BankManagerLogin bml;
+	
+	
+	@BeforeClass
+	public void setUp()
+	{
+		 tu=new TestUtilites();
+	}
+	
+	@Test(priority=1)
+	@Parameters({"browser"})
+	public void launch(String bn) throws Exception
+	{
+		driver=tu.openBrowser(bn);
+		wait=tu.defineWait(driver);
+		String url=tu.getPropertiesValueInFile("url");
+		tu.launchSite(url);
+		bml=new BankManagerLogin(driver,wait);
+		cust=new customer(driver,wait);
+		bml.blmClick();
+		cust.clickCustomer();
+	}
+	@Test(priority=2)
+	public void rowValues()
+	{
+		List<String> head=cust.getHeadings();
+		{
+			Reporter.log("test passed"+head);
+		}
+		int x=cust.getRowCount();
+		{
+			Reporter.log("test passed"+x);
+		}
+		List<String> a=cust.getRowText();
+		{
+			Reporter.log("test passed"+a);
+		}
+		int y=cust.getColumnSize();
+		{
+			Reporter.log("column size"+y);
+		}
+		List<String> actualcell=cust.getColumnText();
+		{
+			Reporter.log("test passed"+actualcell);
+		}
+	}
+	
+	public void validation(String x)
+	{
+		List<String>n= cust.searchBox(x);
+		Reporter.log("test passed"+ n);
+	}
+	
+}

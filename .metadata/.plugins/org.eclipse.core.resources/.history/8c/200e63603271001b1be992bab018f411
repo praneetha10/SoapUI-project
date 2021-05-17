@@ -1,0 +1,184 @@
+package Reusable;
+
+import java.io.File;
+import java.net.URL;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Reuseablemethods 
+{
+	//Properties
+	private RemoteWebDriver driver;
+	private ExtentReports er;
+	private ExtentTest et;
+	//Create Constructor methods
+	public Reuseablemethods (String bn)
+	{
+		//cross browser in local host
+		if(bn.equalsIgnoreCase("chrome"))
+		{
+			WebDriverManager.chromedriver().setup();
+			driver=new ChromeDriver();
+		}
+		else if(bn.equalsIgnoreCase("firefox"))
+		{
+			WebDriverManager.firefoxdriver().setup();
+			driver=new FirefoxDriver();
+		}
+		else if(bn.equalsIgnoreCase("edge"))
+		{
+			WebDriverManager.edgedriver().setup();
+			driver=new EdgeDriver();
+		}
+		else if(bn.equalsIgnoreCase("Opera"))
+		{
+			WebDriverManager.operadriver().setup();
+			driver=new OperaDriver();
+		}
+		else
+		{
+			System.out.println("wrong output");
+			System.exit(0);
+		}
+		er=new ExtentReports("target//gmailtestreults.html",false);
+		et=er.startTest("Gmail site login testing in localhost");
+	}
+
+	public Reuseablemethods(String bn,String version,String os)
+	{
+		//Give cloud details username,accesskey,uri
+		String user_name="pranee10";
+		String Access_key="e364716c-bac2-4f21-9a64-6c9c56895dcf";
+		String uri="https://"+user_name+":"+Access_key+"@ondemand.saucelabs.com:80/wd/hub";
+		try
+		{
+			DesiredCapabilities dc=new DesiredCapabilities();
+			dc.setBrowserName(bn);
+			dc.setCapability("version", version);
+			if(os.equalsIgnoreCase("window"))
+			{
+				dc.setCapability("platform",Platform.WIN8);
+			}
+			else if(os.equalsIgnoreCase("mac"))
+			{
+				dc.setCapability("platform",Platform.MAC);
+			}
+			else if(os.equalsIgnoreCase("linux"))
+			{
+				dc.setCapability("platform",Platform.LINUX);
+			}
+			else
+			{
+				System.out.println("wrong name");
+				System.exit(0);
+			}
+			URL u=new URL(uri);
+			driver=new RemoteWebDriver(u,dc);
+		}
+		catch(Exception ex)
+		{
+			System.out.println(ex.getMessage());
+			System.exit(0);
+		}
+		er=new ExtentReports("target//gmailtestresults.html",false);
+		et=er.startTest("Gmail site login testing in cloud");
+	}
+	//Operational methods
+	 public void lauchsite(String url) throws Exception
+	 {
+		 driver.get(url);
+		 Thread.sleep(5000);
+		 driver.manage().window().maximize();
+		 Thread.sleep(5000);
+	 }
+	 public void fillAndValidateLogin(String uid,String uc,String pwd,String pc) throws Exception
+	 {
+		 
+		 driver.findElement(By.name("identifier")).sendKeys("uid");
+		 driver.findElement(By.xpath("//span[text()='Next']/parent::button")).click();
+		 Thread.sleep(5000);
+		 try
+		 {
+			 if(uc.equalsIgnoreCase("blank")&&driver.findElement(By.xpath("//div[contains(text(),'Enter an email')]")).isDisplayed())
+			 {
+				 et.log(LogStatus.PASS,"Blank usid Test is passed");
+			 }
+			 else if(uc.equalsIgnoreCase("invalid")&&driver.findElement(By.xpath("//div[text()='Couldn’t find your Google Account']")).isDisplayed())
+			 {
+				 et.log(LogStatus.PASS,"invalid test passed");
+			 }
+			 else if(uc.equalsIgnoreCase("valid")&&driver.findElement(By.name("password")).isDisplayed())
+			 {
+				 //Password Testing
+				 driver.findElement(By.name("password")).sendKeys(pwd);
+				 driver.findElement(By.xpath("//span[text()='Next']/parent::button")).click();
+				 Thread.sleep(5000);
+				 if(pc.equalsIgnoreCase("blank")&&driver.findElement(By.xpath("//span[text()='Enter a password']")).isDisplayed())
+				 {
+					 et.log(LogStatus.PASS,"Blank password test passed");
+				 }
+				 else if(pc.equalsIgnoreCase("invalid")&&driver.findElement(By.xpath("//span[contains(text(),'Wrong password')]or[contains(text(),'Try again or click Forgot password ')]")).isDisplayed())
+				 {
+					 et.log(LogStatus.PASS,"invalid password test passed");
+				 }
+				 else if(uc.equalsIgnoreCase("valid")&&driver.findElement(By.xpath("//div[text()='Compose']")).isDisplayed());
+				 {
+					 et.log(LogStatus.PASS,"valid password");
+				 }
+			
+				 else
+				 {
+					 //TAke Screen Short
+					 et.log(LogStatus.FAIL,"password test failed"+et.addScreenCapture(ScreenShort()));
+				 }
+			 }
+			
+			 else
+			 {
+				 et.log(LogStatus.FAIL,"userid test failed and try to watch"+et.addScreenCapture(ScreenShort()));
+			 }
+			
+				 
+			
+		 }
+		 catch(Exception ex)
+		 {
+			 //Take Screenshort
+			 et.log(LogStatus.FAIL,ex.getMessage()+et.addScreenCapture(ScreenShort()));
+			 
+		 }
+	 }
+	 public void closesite()
+	 {
+		 driver.close();
+		 er.flush();
+		 er.endTest(et);
+	 }
+	private String ScreenShort() throws Exception
+	{
+		SimpleDateFormat sf=new SimpleDateFormat("DD-MMM-yyyy-hh-mm-ss");
+		Date dt=new Date();
+		String fn=sf.format(dt)+"png";
+		File dest =new File(fn);
+		File src=driver.getScreenshotAs(OutputType.FILE);
+		FileHandler.copy(src,dest);
+		return(dest.getAbsolutePath());
+	}
+}

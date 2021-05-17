@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;org.magnitia.moduledriven&apos;" deleteContents="false" description="Delete resource &apos;org.magnitia.moduledriven&apos;" element1="/org.magnitia.moduledriven" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1613665251733"/>
+</session>

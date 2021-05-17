@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="org.magnitia.com"/>
+			<item value="org.magnitia.pro"/>
+			<item value="org.magnitia.project2"/>
+			<item value="org.magnitia.BDD"/>
+			<item value="org.magnitia.project"/>
+			<item value="BDD.Personal.Project"/>
+			<item value="org.magnitia.6BDD"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="org.Banking.TDD"/>
+			<item value="org.project5.com"/>
+			<item value="org.project2.com"/>
+			<item value="org.Project2.com"/>
+			<item value="org.BDD.Projet"/>
+			<item value="org.BDD.Project"/>
+			<item value="org.Project.BDD"/>
+			<item value="org.magnitia.BDD"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="F:\batch 251\bddpractice-20210211T143827Z-001"/>
+			<item value="F:\batch 251\selenium_framworks\Frameworks\New folder\org.magnitia.5TDD"/>
+			<item value="F:\batch 251\selenium_framworks\Frameworks\org.magnitia.3datadriven\src\test\java\Classes"/>
+			<item value="F:\batch 251\selenium_framworks\Frameworks\New folder\org.magnitia.3datadriven"/>
+			<item value="F:\batch 251\selenium_framworks\Frameworks\org.magnitia.4pom"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\batch 251\selenium_framworks\Frameworks\Javaprograms"/>
+			<item value="F:\batch 251\selenium_framworks\Frameworks\org.magnitia.BDD"/>
+			<item value="F:\batch 251\selenium_framworks\Frameworks\org.magnitia.BDD\src\test\java"/>
+			<item value="F:\batch 251\selenium_framworks\Frameworks\org.magnitia.5TDD"/>
+			<item value="F:\batch 251\selenium_framworks\Frameworks"/>
+			<item value="F:\batch 251\selenium_framworks\Frameworks\org.magnitia.1oops"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

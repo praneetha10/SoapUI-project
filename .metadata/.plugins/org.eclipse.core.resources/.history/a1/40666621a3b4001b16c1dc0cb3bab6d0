@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" >
+  <test name="Iteration2">
+  	<parameter name="browser" value="chrome"></parameter>
+  	<parameter name="f" value="praneetha"></parameter>
+  	<parameter name="l" value="mullapudi"></parameter>
+  	<parameter name="pin" value="533346"></parameter>
+  <classes>
+      <class name="Tests.Tests2"/>
+   </classes>
+  </test> 
+  <test name="Iteration3">
+     <parameter name="browser" value="chrome"></parameter>
+   	 <parameter name="fn1" value=""></parameter>
+ 	 <parameter name="ln1" value=""></parameter>
+ 	 <parameter name="pin1" value=""></parameter>
+ <classes>
+ 	<class name="Tests.Tests2"></class>
+ </classes>
+ </test>
+ <test name="Iteration4">
+    <parameter name="browser" value="chrome"></parameter>
+   	<parameter name="fn2" value="praneetha"></parameter>
+  	<parameter name="ln2" value="mullapudi"></parameter>
+  	<parameter name="pin2" value="533346"></parameter>
+ <classes>
+ 	<class name="Tests.Tests2"></class>
+ </classes>
+ </test>
+ <test name="Iteration5">
+    <parameter name="browser" value="chrome"></parameter>
+   	<parameter name="fn2" value="praneetha"></parameter>
+  	<parameter name="ln2" value="mullapudi"></parameter>
+  	<parameter name="pin2" value="533346"></parameter>
+ <classes>
+ 	<class name="Tests.Tests3"></class>
+ </classes>
+ </test>
+</suite> <!-- Suite -->

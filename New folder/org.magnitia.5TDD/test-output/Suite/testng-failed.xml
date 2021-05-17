@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Iteration1(failed)">
+    <parameter name="uid" value="magnitiait"/>
+    <parameter name="uidcriteria" value="valid"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="pwdcriteria" value="valid"/>
+    <parameter name="pwd" value="Magnitia@05"/>
+    <classes>
+      <class name="tests.LoginTestWithXml">
+        <methods>
+          <include name="launch" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="uidTest" invocation-numbers="0"/>
+          <include name="pwdTest"/>
+        </methods>
+      </class> <!-- tests.LoginTestWithXml -->
+    </classes>
+  </test> <!-- Iteration1(failed) -->
+  <test thread-count="5" name="Iteration2(failed)">
+    <parameter name="uid" value=""/>
+    <parameter name="uidcriteria" value="blank"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="pwdcriteria" value="N/A"/>
+    <parameter name="pwd" value="N/A"/>
+    <classes>
+      <class name="tests.LoginTestWithXml">
+        <methods>
+          <include name="launch" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="uidTest" invocation-numbers="0"/>
+          <include name="pwdTest"/>
+        </methods>
+      </class> <!-- tests.LoginTestWithXml -->
+    </classes>
+  </test> <!-- Iteration2(failed) -->
+  <test thread-count="5" name="Iteration3(failed)">
+    <parameter name="uid" value="magnitia@nonit"/>
+    <parameter name="uidcriteria" value="invalid"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="pwdcriteria" value="N/A"/>
+    <parameter name="pwd" value="N/A"/>
+    <classes>
+      <class name="tests.LoginTestWithXml">
+        <methods>
+          <include name="launch" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="uidTest" invocation-numbers="0"/>
+          <include name="pwdTest"/>
+        </methods>
+      </class> <!-- tests.LoginTestWithXml -->
+    </classes>
+  </test> <!-- Iteration3(failed) -->
+  <test thread-count="5" name="Iteration4(failed)">
+    <parameter name="uid" value="magnitiait"/>
+    <parameter name="uidcriteria" value="valid"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="pwdcriteria" value="blank"/>
+    <parameter name="pwd" value=""/>
+    <classes>
+      <class name="tests.LoginTestWithXml">
+        <methods>
+          <include name="launch" invocation-numbers="0"/>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="uidTest" invocation-numbers="0"/>
+          <include name="pwdTest"/>
+        </methods>
+      </class> <!-- tests.LoginTestWithXml -->
+    </classes>
+  </test> <!-- Iteration4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

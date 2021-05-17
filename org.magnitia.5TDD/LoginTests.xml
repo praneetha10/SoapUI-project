@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="tests">
+  <test name="Iteration1">
+  		<parameter name="browser" value="chrome"></parameter>
+  		<parameter name="uid" value="magnitia251@gmail.com"></parameter>
+  		<parameter name="uidcriteria" value="vaild"></parameter>
+  		<parameter name="pwd" value="Magnit251"></parameter>
+  		<parameter name="pwdcriteria" value="vaild"></parameter>
+    <classes>
+      <class name="Tests.LoginTestwithXml"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Iteration2">
+  	 <parameter name="browser" value="chrome"></parameter>
+ 	 <parameter name="uid" value=""></parameter>
+ 	 <parameter name="uidcriteria" value="blank"></parameter>
+  	 <parameter name="pwd" value="N/A"></parameter>
+  	 <parameter name="pwdcriteria" value="N/A"></parameter>
+ <classes>
+ 	<class name="Tests.LoginTestwithXml"></class>
+ </classes>
+ </test>
+ <test name="Iteration3">
+ <parameter name="browser" value="chrome"></parameter>
+ <parameter name="uid" value="magnitia@289"></parameter>
+ <parameter name="uidcriteria" value="invaild"></parameter>
+ <parameter name="pwd" value="N/A"></parameter>
+ <parameter name="pwdcriteria" value="N/A"></parameter>
+ <classes>
+ 	<class name="Tests.LoginTestwithXml"></class>
+ </classes>
+ </test>
+ <test name="Iteration4">
+	<parameter name="browser" value="chrome"></parameter>
+  	<parameter name="uid" value="magnitia251@gmail.com"></parameter>
+  	<parameter name="uidcriteria" value="vaild"></parameter>
+  	<parameter name="pwd" value=""></parameter>
+  	<parameter name="pwdcriteria" value="blank"></parameter>
+  	<classes>
+ 	<class name="Tests.LoginTestwithXml"></class>
+  </classes>
+  </test>
+  <test name="Iteration5">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="uid" value="magnitia251@gmail.com"></parameter>
+  <parameter name="uidcriteria" value="vaild"></parameter>
+  <parameter name="pwd" value="magnitia45"></parameter>
+  <parameter name="pwdcriteria" value="invaild"></parameter>
+  <classes>
+ 	<class name="Tests.LoginTestwithXml"></class>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+package Reusable;
+
+import org.openqa.selenium.remote.RemoteWebDriver;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+
+public class ReuseableMethods {
+	{
+		//Properties
+		private RemoteWebDriver driver;
+		private ExtentReports er;
+		private ExtentTest et;
+		
+		
+		
+
+	}
+
+}

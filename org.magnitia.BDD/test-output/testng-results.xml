@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="18" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="327798" started-at="2021-04-06T12:31:39 IST" finished-at="2021-04-06T12:37:07 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="327798" started-at="2021-04-06T12:31:39 IST" finished-at="2021-04-06T12:37:07 IST">
+      <class name="Tests.Runner1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Tests.Runner1@3d299e3]" name="setUpClass" is-config="true" duration-ms="1022" started-at="2021-04-06T12:31:39 IST" finished-at="2021-04-06T12:31:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="9657" started-at="2021-04-06T12:31:40 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:31:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Gmail homepage title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail HomePage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="12874" started-at="2021-04-06T12:31:50 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:32:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate userid Login in homePage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail HomePage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="6504" started-at="2021-04-06T12:32:03 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:32:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate userid in homePage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail HomePage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="10878" started-at="2021-04-06T12:32:09 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:32:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate userid in homePage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail HomePage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="22725" started-at="2021-04-06T12:32:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:32:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate valid password in login page in Gmail"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="21946" started-at="2021-04-06T12:32:43 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:33:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate valid password in login page in Gmail"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="23079" started-at="2021-04-06T12:33:05 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:33:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate valid password in login page in Gmail"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="23849" started-at="2021-04-06T12:33:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:33:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate valid password in login page in Gmail"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="13263" started-at="2021-04-06T12:33:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:34:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid password in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="12954" started-at="2021-04-06T12:34:05 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:34:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid password in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element reference of <button class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b" type="button"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 9500, moz:profile: C:\Users\prane\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 10a3242a-4c74-437f-a6db-7ee85cdc6c1b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element reference of <button class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b" type="button"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 9500, moz:profile: C:\Users\prane\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 10a3242a-4c74-437f-a6db-7ee85cdc6c1b
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:238)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy28.click(Unknown Source)
+at Pageclasses.LoginPage.isNextpwd(LoginPage.java:40)
+at GlueCode.Stepdef1.click_password_next_button(Stepdef1.java:133)
+at ✽.click password next button(file:///F:/batch%20251/selenium_framworks/Frameworks/org.magnitia.BDD/src/test/resources/features/feature2.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="14259" started-at="2021-04-06T12:34:18 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:34:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid password in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="11528" started-at="2021-04-06T12:34:32 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:34:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid password in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="10473" started-at="2021-04-06T12:34:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:34:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid password in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="14592" started-at="2021-04-06T12:34:54 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:35:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid password in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="13684" started-at="2021-04-06T12:35:09 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:35:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid password in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <button class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b" type="button"> could not be scrolled into view
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 30052, moz:profile: C:\Users\prane\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ddc2cf2-5b97-43cc-8675-90361207bdd6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <button class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b" type="button"> could not be scrolled into view
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 30052, moz:profile: C:\Users\prane\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ddc2cf2-5b97-43cc-8675-90361207bdd6
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:238)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+at sun.reflect.GeneratedMethodAccessor98.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy28.click(Unknown Source)
+at Pageclasses.LoginPage.isNextpwd(LoginPage.java:40)
+at GlueCode.Stepdef1.click_password_next_button(Stepdef1.java:133)
+at ✽.click password next button(file:///F:/batch%20251/selenium_framworks/Frameworks/org.magnitia.BDD/src/test/resources/features/feature2.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="17019" started-at="2021-04-06T12:35:22 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:35:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid password in login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="78423" started-at="2021-04-06T12:35:39 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:36:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate mail compose"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Gmail compose]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Tests.Runner1@3d299e3]" name="runScenario" duration-ms="8674" started-at="2021-04-06T12:36:58 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-06T12:37:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate mail compose"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[GmailCompose]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[\src\test\resources\Testdata\Book1.xlsx (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: \src\test\resources\Testdata\Book1.xlsx (The system cannot find the path specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at Utilityclasses.ExcelUtility.<init>(ExcelUtility.java:30)
+at GlueCode.Stepdef2.method1(Stepdef2.java:44)
+at ✽.send mail and test by taking data from excel(file:///F:/batch%20251/selenium_framworks/Frameworks/org.magnitia.BDD/src/test/resources/features/feature4.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Tests.Runner1@3d299e3]" name="tearDownClass" is-config="true" duration-ms="265" started-at="2021-04-06T12:37:07 IST" finished-at="2021-04-06T12:37:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Tests.Runner1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

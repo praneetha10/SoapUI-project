@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">15</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">327,798</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">Tests.Runner1</td><td><a href="#m0">runScenario</a></td><td rowspan="3">1617692818422</td><td rowspan="3">8674</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m2">runScenario</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="15">Tests.Runner1</td><td><a href="#m3">runScenario</a></td><td rowspan="15">1617692658424</td><td rowspan="15">14259</td></tr><tr class="passedeven"><td><a href="#m4">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m5">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m6">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m7">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m8">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m9">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m10">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m11">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m12">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m13">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m14">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m15">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m16">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m17">runScenario</a></td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate mail compose&quot;</td><td>&quot;Optional[GmailCompose]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.io.FileNotFoundException: \src\test\resources\Testdata\Book1.xlsx (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at Utilityclasses.ExcelUtility.&lt;init&gt;(ExcelUtility.java:30)
+	at GlueCode.Stepdef2.method1(Stepdef2.java:44)
+	at ✽.send mail and test by taking data from excel(file:///F:/batch%20251/selenium_framworks/Frameworks/org.magnitia.BDD/src/test/resources/features/feature4.feature:9)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate invalid password in login page&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;button class=&quot;VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b&quot; type=&quot;button&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;DESKTOP-8G3MUB9&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 9500, moz:profile: C:\Users\prane\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 10a3242a-4c74-437f-a6db-7ee85cdc6c1b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:238)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at Pageclasses.LoginPage.isNextpwd(LoginPage.java:40)
+	at GlueCode.Stepdef1.click_password_next_button(Stepdef1.java:133)
+	at ✽.click password next button(file:///F:/batch%20251/selenium_framworks/Frameworks/org.magnitia.BDD/src/test/resources/features/feature2.feature:24)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate invalid password in login page&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: Element &lt;button class=&quot;VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b&quot; type=&quot;button&quot;&gt; could not be scrolled into view
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;DESKTOP-8G3MUB9&apos;, ip: &apos;192.168.0.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 83.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201112153044, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 30052, moz:profile: C:\Users\prane\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ddc2cf2-5b97-43cc-8675-90361207bdd6
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:238)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy28.click(Unknown Source)
+	at Pageclasses.LoginPage.isNextpwd(LoginPage.java:40)
+	at GlueCode.Stepdef1.click_password_next_button(Stepdef1.java:133)
+	at ✽.click password next button(file:///F:/batch%20251/selenium_framworks/Frameworks/org.magnitia.BDD/src/test/resources/features/feature2.feature:24)
+... Removed 7 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate invalid password in login page&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate mail compose&quot;</td><td>&quot;Optional[Gmail compose]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate userid Login in homePage&quot;</td><td>&quot;Optional[Gmail HomePage]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate invalid password in login page&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate userid in homePage&quot;</td><td>&quot;Optional[Gmail HomePage]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate invalid password in login page&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate invalid password in login page&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate userid in homePage&quot;</td><td>&quot;Optional[Gmail HomePage]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate invalid password in login page&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate valid password in login page in Gmail&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate valid password in login page in Gmail&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate invalid password in login page&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate valid password in login page in Gmail&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate valid password in login page in Gmail&quot;</td><td>&quot;Optional[Gmail Login]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">Tests.Runner1#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validate Gmail homepage title&quot;</td><td>&quot;Optional[Gmail HomePage]&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

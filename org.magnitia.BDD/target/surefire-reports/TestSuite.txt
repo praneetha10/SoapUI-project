@@ -1,0 +1,150 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 17, Errors: 0, Skipped: 0, Time elapsed: 1,295.116 s <<< FAILURE! - in TestSuite
+runScenario(Tests.Runner1)  Time elapsed: 68.66 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:22820 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:22820 after 60000 ms
+
+runScenario(Tests.Runner1)  Time elapsed: 63.394 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:26452 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:26452 after 60000 ms
+
+runScenario(Tests.Runner1)  Time elapsed: 62.399 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:17921 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:17921 after 60000 ms
+
+runScenario(Tests.Runner1)  Time elapsed: 25.469 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Failed to navigate to https://gmail.com. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. The error returned is: Received error: 0x800700aa ['The requested resource is in use.']
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.edgechromium: false, ie.edgepath: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:8365/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9fa352cf-453a-4baa-b805-83114c2381c2
+
+runScenario(Tests.Runner1)  Time elapsed: 73.217 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:18661 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:18661 after 60000 ms
+
+runScenario(Tests.Runner1)  Time elapsed: 102.894 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:38096 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:38096 after 60000 ms
+
+runScenario(Tests.Runner1)  Time elapsed: 230.491 s  <<< FAILURE!
+java.lang.AssertionError
+
+runScenario(Tests.Runner1)  Time elapsed: 49.275 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Opera binary
+  (Driver info: operadriver=89.0.4389.82 (8d785cc4e2b89bff35f6a21710215271fb8fd782-refs/branch-heads/4389@{#1433}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 84 milliseconds
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: OperaDriver
+
+runScenario(Tests.Runner1)  Time elapsed: 61.025 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:2806 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:2806 after 60000 ms
+
+runScenario(Tests.Runner1)  Time elapsed: 12.274 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=89.0.774.68)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.68, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62150}, msedge: {msedgedriverVersion: 89.0.774.68 (539ddb33b714f3..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: abf31b903c6aa2084088dc1a4ceef000
+
+runScenario(Tests.Runner1)  Time elapsed: 1.57 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Opera binary
+  (Driver info: operadriver=89.0.4389.82 (8d785cc4e2b89bff35f6a21710215271fb8fd782-refs/branch-heads/4389@{#1433}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: OperaDriver
+
+runScenario(Tests.Runner1)  Time elapsed: 60.93 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:8877 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:8877 after 60000 ms
+
+runScenario(Tests.Runner1)  Time elapsed: 116.075 s  <<< FAILURE!
+java.lang.AssertionError
+
+runScenario(Tests.Runner1)  Time elapsed: 129.936 s  <<< FAILURE!
+java.lang.AssertionError
+
+runScenario(Tests.Runner1)  Time elapsed: 1.635 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Opera binary
+  (Driver info: operadriver=89.0.4389.82 (8d785cc4e2b89bff35f6a21710215271fb8fd782-refs/branch-heads/4389@{#1433}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 39 milliseconds
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: OperaDriver
+
+runScenario(Tests.Runner1)  Time elapsed: 69.185 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:24376 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:24376 after 60000 ms
+
+runScenario(Tests.Runner1)  Time elapsed: 67.573 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-8G3MUB9', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:38443 after 60000 ms
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:38443 after 60000 ms
+
